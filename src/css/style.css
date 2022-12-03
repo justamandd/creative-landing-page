@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+html, body {
+    margin: 0 auto;
+    padding: 0;
+}
+
+body {
+    background-color: #2A2A2A;
+    background-image: url(../assets/bg-bubbles.svg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: left;
+    padding: 50px 137px;
+}
+
+nav, 
+header, 
+main, 
+section, 
+footer {
+    margin: 0 21px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav__link {
+    text-decoration: none;
+    color: #B6B6B6;
+    font-size: 1.3rem;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+}
+
+.nav__brand {
+    font-weight: 700;
+    font-size: 1.8rem;
+    vertical-align: middle;
+    color: #1AA37A;
+}
+
+.navbar__side {
+    display: flex;
+    align-items: center;
+}
+
+.navbar__side .nav__link {
+    margin: 0 43px 0 0;
+}
+
+.btn {
+    border-radius: 53px;
+    padding: 22px 2em; 
+    align-items: center;
+    background-color: #1AA37A;
+    border: 0px;
+    filter: drop-shadow(0 0 1.5em rgba(26, 163, 122, 0.3));
+}
+
+.btn.nav__link {
+    color: #fff;
+    font-weight: 700;
+}
+
